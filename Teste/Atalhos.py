@@ -31,6 +31,8 @@ git push  para enviar para o banco de dados do git
 
 caso dê algum erro no push, coloque pull, e depois push de novo
 
+
+
 OBS:Nas regras de utilização do browser, é necessário que esteja dentro da tag body para poder ele fazer o reload, ou seja, o php precisa estar dentro dessa tag
 
 Para abrir o browser-sync:
