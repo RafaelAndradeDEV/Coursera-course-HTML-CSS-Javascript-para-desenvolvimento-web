@@ -53,6 +53,7 @@ browser-sync start --proxy "http://localhost:8080/teste/index.php" --files .
 
 Selecionar o http do "Local" indicado pelo browser-sync
 
+TEXTO EM LATIM, COLOCAR: lorem ipsum
 
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +64,7 @@ Selecionar o http do "Local" indicado pelo browser-sync
   <title>Document</title>
 </head>
 <body>
-  <h1>Feliz! bundona</h1>
+  <h1>Feliz!</h1>
 </body>
 </html>
 

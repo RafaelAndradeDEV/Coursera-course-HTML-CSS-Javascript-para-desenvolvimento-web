@@ -146,11 +146,104 @@ Use lists to group content, Ex: List to buy, Shopping list
 <ul></ul> - é para fazer lista com pontos no inicio
 <ol></ol> - é para fazer listas numeradas
 
+                    Lecture 8: HTML Character Entity References
 
+3 characters you should always scape:
+instead of:   instead of:  Instead of:
+     <            >           &
+Use:          Use:           Use:
+  &lt;         &gt;         &amp;
 
+Ex:           Wrong
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studying Lists</title>
+</head>
+<body>
+	<h1>Don´t be afraid to be <then a 100% success & > more:</h1>
+  <p>We are the champion</p>
+</body>
+</html>
 
+              Correct
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studying Lists</title>
+</head>
+<body>
+	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+  <p>We are the champion</p>
+  <p>&copy; Copywriting</p>
+</body>
+</html>
 
+For make the symbol of copywriting is only write "&copy;"
+
+If a want to hold on a phrasal in the same line, l should use the entity: "&nbsp;" between the words
+
+Ex: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studying Lists</title>
+</head>
+<body>
+	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam dolorem quaerat odio assumenda porro ad impedit culpa asperiores, consectetur expedita obcaecati ea quo commodi iusto quae qui&nbsp;minima&nbsp;quis.</p>
+  <p>We are the champion</p>
+  <p>&copy; Copywriting</p>
+</body>
+</html>
+
+The text hold on together is "qui minima quis."
+
+Outra entity reference is "&quot;" para quando a visualização do padrão de texto(UTF-8) estiver mudado, o texto não ser alterado.
+
+                          Lecture 10: Displaying Images
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studying Lists</title>
+</head>
+<body>
+	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+  <p>
+    <img src="https://theviolinchannel.com/wp-content/uploads/2018/11/9ADFF852-BB1B-4B0A-90A7-02F8A6532C02.jpeg" width="1024" height="512" alt="The best instrumental">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam dolorem quaerat odio assumenda porro ad impedit culpa asperiores, consectetur expedita obcaecati ea quo commodi iusto quae qui&nbsp;minima&nbsp;quis.
+  </p>
+  <p>We are the champion</p>
+  <p>&copy; Copywriting</p>
+</body>
+</html>
+
+Para colocar uma imagem tem seguir os seguintes passos: 
+
+<img src="Url" width="Number pixels" height="Number pixels" alt="Comentário" 
+
+É de suma importância colocar os tamanhos, pois numa internet lenta, as imagens sem essas propriedades farão uma breve confusão quando recarregar
+
+PS: Ele é um elemento inline, ou seja, não faz outra linha, o texto continua nele. Basta colocar separado de tags de string.
+
+Mudando um pedaço da url, a imagem não ira mais aparecer, mas se tiver as características de dimensões, ele ocupará esse espaço sem imagem.
+
+Tag de redirecionamento é "a"
+<a href="Link">Texto</a>
 
 
 
