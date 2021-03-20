@@ -1,4 +1,4 @@
-#In Python, a string is a sequence of characters. A string is contained within two quotes:
+#In Python, lista_inversa string is lista_inversa sequence of characters. A string is contained within two quotes:
 #You could also use single quotes. A string can be spaces, or digits.
 '''Strings:Escape sequences
 * -\n - new line. Ex: print(''Michael Jackson\n is beautiful'')

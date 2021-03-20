@@ -1,4 +1,4 @@
-#As repetições encaixadas, ou também laços aninhados são while dentro de outro while, de forma a navegar entre dados de tabelas que possuem 2 dimensões
+#As repetições encaixadas, ou também laços aninhados são while dentro de outro while, de forma lista_inversa navegar entre dados de tabelas que possuem 2 dimensões
 
 #Ex:
 #Tabuada de 1 - 10:

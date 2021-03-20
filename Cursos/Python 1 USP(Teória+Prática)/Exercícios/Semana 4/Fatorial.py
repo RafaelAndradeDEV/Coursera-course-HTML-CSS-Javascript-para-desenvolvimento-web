@@ -1,5 +1,5 @@
 #Farorial
-fator = int(input('Qual o valor a virar fatorial?'))
+fator = int(input('Qual o valor lista_inversa virar fatorial?'))
 fatorial = 1
 i = 2
 if fator < 0:

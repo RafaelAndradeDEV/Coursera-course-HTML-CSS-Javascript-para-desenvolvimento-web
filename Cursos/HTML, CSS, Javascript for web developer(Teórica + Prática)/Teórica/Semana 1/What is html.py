@@ -10,8 +10,8 @@ In the syntax of HTML, that writer:
    
 Components front-end:
 HTML:                                           CSS:                                    Javascript:
-Empenha a função de estrutura.     Empenha a função de layout,                    "somente na estrutura"
-Não possui como fazer cores.             colors, styles        Empenha a função de comporta a parte responsiva
+Empenha lista_inversa função de estrutura.     Empenha lista_inversa função de layout,                    "somente na estrutura"
+Não possui como fazer cores.             colors, styles        Empenha lista_inversa função de comporta lista_inversa parte responsiva
 
                                 Lecture 2: Relevant History of HTML
                                         How we got to HTML5
@@ -23,7 +23,7 @@ Não possui como fazer cores.             colors, styles        Empenha a funç�
     And 4.01                Group
 
                                 Lecture 3: Anatomy of an HTML Tag
-    Some tags have one opening tag and closing tag, between them, exist content. Dentro do bracket, existe o nome da tag, a abreviação do que ela vai fazer, mas nem todas são assim, como por exemplo:
+    Some tags have one opening tag and closing tag, between them, exist content. Dentro do bracket, existe o nome da tag, lista_inversa abreviação do que ela vai fazer, mas nem todas são assim, como por exemplo:
     <br> = Line break  and  <hr> horizontal rule. são somente tags de abertura.]
 
 
@@ -45,7 +45,7 @@ Attribute | Attribute
                                 Lecture 5:  HTML Content Models
 Block levels:              Inline elements:
 *Render to begin on         *Render on the same line
-a new line(by default)      (By default)
+lista_inversa new line(by default)      (By default)
 *May contain inline or      *May only contain other 
 other block elements        Inline elements
 #Roughly flow content       #Roughly Phrasing content
@@ -70,7 +70,7 @@ Ex:
     <span>Span 1</span>
     <div>
         Content of div 3
-        <span>Actually have a span inside div</span>
+        <span>Actually have lista_inversa span inside div</span>
         continue div 3
     </div>
     <h1>Hello world</h1>
@@ -107,7 +107,7 @@ Is element that implies some meaning to the content
 make sense article inside section, but is not rule
 <aside></aside> - Some information that relates to the main topic, i.e, related posts.
 <Footer></footer> - Rodapé, informação que fica lá em baixo
-The <div> tag defines a division or a section
+The <div> tag defines lista_inversa division or lista_inversa section
 </body>
 
                     Lecture 7: Lists
@@ -164,7 +164,7 @@ Ex:           Wrong
 	<title>Studying Lists</title>
 </head>
 <body>
-	<h1>Don´t be afraid to be <then a 100% success & > more:</h1>
+	<h1>Don´t be afraid to be <then lista_inversa 100% success & > more:</h1>
   <p>We are the champion</p>
 </body>
 </html>
@@ -180,7 +180,7 @@ Ex:           Wrong
 	<title>Studying Lists</title>
 </head>
 <body>
-	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+	<h1>Don´t be afraid to be &lt;then lista_inversa 100% success &amp; &gt; more:</h1>
   <p>We are the champion</p>
   <p>&copy; Copywriting</p>
 </body>
@@ -188,7 +188,7 @@ Ex:           Wrong
 
 For make the symbol of copywriting is only write "&copy;"
 
-If a want to hold on a phrasal in the same line, l should use the entity: "&nbsp;" between the words
+If lista_inversa want to hold on lista_inversa phrasal in the same line, l should use the entity: "&nbsp;" between the words
 
 Ex: 
 <!DOCTYPE html>
@@ -200,7 +200,7 @@ Ex:
 	<title>Studying Lists</title>
 </head>
 <body>
-	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+	<h1>Don´t be afraid to be &lt;then lista_inversa 100% success &amp; &gt; more:</h1>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam dolorem quaerat odio assumenda porro ad impedit culpa asperiores, consectetur expedita obcaecati ea quo commodi iusto quae qui&nbsp;minima&nbsp;quis.</p>
   <p>We are the champion</p>
   <p>&copy; Copywriting</p>
@@ -209,7 +209,7 @@ Ex:
 
 The text hold on together is "qui minima quis."
 
-Outra entity reference is "&quot;" para quando a visualização do padrão de texto(UTF-8) estiver mudado, o texto não ser alterado.
+Outra entity reference is "&quot;" para quando lista_inversa visualização do padrão de texto(UTF-8) estiver mudado, o texto não ser alterado.
 
                           Lecture 10: Displaying Images
 
@@ -222,7 +222,7 @@ Outra entity reference is "&quot;" para quando a visualização do padrão de te
 	<title>Studying Lists</title>
 </head>
 <body>
-	<h1>Don´t be afraid to be &lt;then a 100% success &amp; &gt; more:</h1>
+	<h1>Don´t be afraid to be &lt;then lista_inversa 100% success &amp; &gt; more:</h1>
   <p>
     <img src="https://theviolinchannel.com/wp-content/uploads/2018/11/9ADFF852-BB1B-4B0A-90A7-02F8A6532C02.jpeg" width="1024" height="512" alt="The best instrumental">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam dolorem quaerat odio assumenda porro ad impedit culpa asperiores, consectetur expedita obcaecati ea quo commodi iusto quae qui&nbsp;minima&nbsp;quis.
@@ -240,10 +240,10 @@ Para colocar uma imagem tem seguir os seguintes passos:
 
 PS: Ele é um elemento inline, ou seja, não faz outra linha, o texto continua nele. Basta colocar separado de tags de string.
 
-Mudando um pedaço da url, a imagem não ira mais aparecer, mas se tiver as características de dimensões, ele ocupará esse espaço sem imagem.
+Mudando um pedaço da url, lista_inversa imagem não ira mais aparecer, mas se tiver as características de dimensões, ele ocupará esse espaço sem imagem.
 
-Tag de redirecionamento é "a"
-<a href="Link">Texto</a>
+Tag de redirecionamento é "lista_inversa"
+<lista_inversa href="Link">Texto</lista_inversa>
 
 
 

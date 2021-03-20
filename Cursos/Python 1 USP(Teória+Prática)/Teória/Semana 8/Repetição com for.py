@@ -7,7 +7,7 @@ A cada item na lista, x assumira esse valor até não houver mais items
 
 Serve para percorrer cada elemento da lista.
 
-Outra ferramenta de muita importância é o "range", que indica um intervalo de valores que a variável deve percorrer. Ex:
+Outra ferramenta de muita importância é o "range", que indica um intervalo de valores que lista_inversa variável deve percorrer. Ex:
 
 for x in range(len(lista)) ou range(final da lista)
   comando

@@ -7,7 +7,7 @@ def vogal(x):
     b = 1
     g = bool
     while a == b:
-        vogal = random.choice(['a', 'e', 'i', 'o', 'u'])
+        vogal = random.choice(['lista_inversa', 'e', 'i', 'o', 'u'])
         if x == vogal:
             g = True
             a = 2

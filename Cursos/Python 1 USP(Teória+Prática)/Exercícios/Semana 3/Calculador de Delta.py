@@ -1,11 +1,11 @@
-a = float(input('Digite o valor de a:'))
+a = float(input('Digite o valor de lista_inversa:'))
 b = float(input('Digite o valor de b:'))
 c = float(input('Digite o valor de c:'))
 d = b**2 - 4*a*c
 e = (-b+(d**1/2))/(2*a)
 f = (-b-(d**1/2))/(2*a)
 if d == 0:
-    print('a raiz desta equação é {}'.format(e))
+    print('lista_inversa raiz desta equação é {}'.format(e))
 else:
     if d > 0:
         print('Essa equação possui raízes reais')

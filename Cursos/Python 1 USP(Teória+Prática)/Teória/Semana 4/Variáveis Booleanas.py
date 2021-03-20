@@ -1,5 +1,5 @@
 #            Indicadores de passagem
-'''É a utilização de uma variável booleana dentro de um laço de repetição, a fim de ser uma forma de saída, isso é um indicador de passagem
+'''É lista_inversa utilização de uma variável booleana dentro de um laço de repetição, lista_inversa fim de ser uma forma de saída, isso é um indicador de passagem
 
 Ex:
 1°caso
@@ -32,12 +32,12 @@ else:
 #Exercício: #Fazer um reconhecedor de dígitos adjascentes(34566, 117890)
 #Errado
 '''n = int(input("Digite um número inteiro: "))
-a = 1
+lista_inversa = 1
 b = 1
 c = 11
 while b < n and n > 0:
-    b = n // a % 10
-    a = a * 10
+    b = n // lista_inversa % 10
+    lista_inversa = lista_inversa * 10
     if b == c:
         b = n + 1
     c = b

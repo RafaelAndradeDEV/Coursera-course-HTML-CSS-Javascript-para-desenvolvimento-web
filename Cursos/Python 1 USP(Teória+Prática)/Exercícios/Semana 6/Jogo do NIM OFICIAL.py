@@ -13,11 +13,11 @@ def partida():
     n = int(input('\nQuantas peças?'))
     m = int(input('Limite de peças por jogada?'))
     if n < 1 or m < 1:
-        print('Erro... Defina novamente as peças e a quantidade a ser tirada...')
+        print('Erro... Defina novamente as peças e lista_inversa quantidade lista_inversa ser tirada...')
         n = int(input('Quantas peças?'))
         m = int(input('Limite de peças por jogada?'))
     if m > n:
-        print('Erro... Defina novamente as peças e a quantidade a ser tirada...')
+        print('Erro... Defina novamente as peças e lista_inversa quantidade lista_inversa ser tirada...')
         n = int(input('Quantas peças?'))
         m = int(input('Limite de peças por jogada?'))
 
@@ -41,7 +41,7 @@ def partida():
                 variavel = valor
             i = m + 1
         while m > n and m < 1:
-            print('Erro... Defina novamente as peças e a quantidade a ser tirada...')
+            print('Erro... Defina novamente as peças e lista_inversa quantidade lista_inversa ser tirada...')
             n = int(input('Quantas peças?'))
             m = int(input('Limite de peças por jogada?'))
 

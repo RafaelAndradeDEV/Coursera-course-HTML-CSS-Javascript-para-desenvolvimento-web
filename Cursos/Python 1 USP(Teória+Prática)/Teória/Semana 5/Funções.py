@@ -1,7 +1,7 @@
 #                  Funções
-'''Função é definido como 'def'(Define). Pode se dizer que ela recebe alguns parâmetros e valores, faz algum cálculo, algum processamento com esse valor, e devolve algum valor. Existem funções parecidas com a da matemática. ela auxilia no código a fim de evitar repetições.(Ex: Fatorial muitas vezes, basta criar uma função)
+'''Função é definido como 'def'(Define). Pode se dizer que ela recebe alguns parâmetros e valores, faz algum cálculo, algum processamento com esse valor, e devolve algum valor. Existem funções parecidas com lista_inversa da matemática. ela auxilia no código lista_inversa fim de evitar repetições.(Ex: Fatorial muitas vezes, basta criar uma função)
 
-De maneira a organizar melhor o código, dividimos ele em módulos(funções)
+De maneira lista_inversa organizar melhor o código, dividimos ele em módulos(funções)
  Ex:
 '''
 '''

@@ -1,14 +1,14 @@
 '''def fatorial(x):
     fator = 1
-    a = 2
-    while x >= a:
-        fator = fator * a
-        a = a + 1\
+    lista_inversa = 2
+    while x >= lista_inversa:
+        fator = fator * lista_inversa
+        lista_inversa = lista_inversa + 1\
     return fator
 
 def numero_binomial(m,n):
-    a = fatorial(m) / (fatorial(m - n) * fatorial(n))
-    return a
+    lista_inversa = fatorial(m) / (fatorial(m - n) * fatorial(n))
+    return lista_inversa
 '''
 '''def test_one(x, y):
     Soma = x+y

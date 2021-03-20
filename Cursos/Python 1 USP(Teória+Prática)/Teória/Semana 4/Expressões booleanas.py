@@ -1,5 +1,5 @@
 #O criador das expressões booleanas foi George Boole (1815–1864)
-# São usados os operadores(and, or, not >, >=, <, <=, ==) e a saída será ('True' or 'False')
+# São usados os operadores(and, or, not >, >=, <, <=, ==) e lista_inversa saída será ('True' or 'False')
 #Ex: Fizersol = True
 #Forferiado = False
 #Irpraia = Fizersol and Forferiado. Will print('False'), cuz Forferiado is 'False'
@@ -29,7 +29,7 @@ Print('False')
 if 100>50:
     print('vai chover')
     print('Vai cair pedra')
-    ...   # pode se escrever inúmeras linhas dentro do comando if, mas tem que seguir a indentação
+    ...   # pode se escrever inúmeras linhas dentro do comando if, mas tem que seguir lista_inversa indentação
 
 Tem o caso também entre o if e else:
 if 100>50:

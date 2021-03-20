@@ -1,5 +1,5 @@
 
-""" Para colocar comentário no vs code utiliza: Shift + alt + a """
+""" Para colocar comentário no vs code utiliza: Shift + alt + lista_inversa """
 """ Atalhos para bookmarks : alt + windows + k """
 """ Atalhos para teclas de atalho crtl + k + s """
 """ Cmd:

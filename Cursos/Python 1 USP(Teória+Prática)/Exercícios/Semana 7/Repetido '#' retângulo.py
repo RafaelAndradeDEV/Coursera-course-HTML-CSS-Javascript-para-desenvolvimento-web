@@ -1,5 +1,5 @@
-coluna = int(input('Qual a quantidade de colunas?(tem que ser maior que 0)'))
-linha = int(input('Qual a quantidade de linhas?(tem que ser maior que 0)'))
+coluna = int(input('Qual lista_inversa quantidade de colunas?(tem que ser maior que 0)'))
+linha = int(input('Qual lista_inversa quantidade de linhas?(tem que ser maior que 0)'))
 saida = 0
 saidaencaixada = 0
 while saida != 1:
