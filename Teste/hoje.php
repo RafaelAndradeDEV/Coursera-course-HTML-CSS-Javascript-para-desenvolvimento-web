@@ -7,7 +7,61 @@
   <title>Dia <?php echo date('d/m/y'); ?></title>
 </head>
 <body>
-  <h1> Estamos em <?php echo date('Y'); ?> e hoje é dia <?php echo date('d/m'); ?> </h1> <p> Esta página foi gerada às <?php echo date('H'); ?> horas e <?php echo date('i'); ?> minutos. </p>
+  <?php 
+  function calendario() 
+  { 
+    $calendario = ''; 
+    $dia = 1; 
+    $semana = []; 
+    while ($dia <= 31) { 
+      array_push($semana, $dia); 
+      
+      if (count($semana) == 7) { 
+        $calendario .= linha($semana); 
+        $semana = []; 
+      } 
+      
+      $dia++; 
+    } 
+    
+    $calendario .= linha($semana);  #Chamada que faz o termino do calendário. Se houver 31 dias.
+
+    return $calendario; 
+  } 
+
+  function linha($semana) 
+  {
+    $linha = '<tr>'; 
+    for ($i = 0; $i <= 6; $i++) { 
+      if (array_key_exists($i, $semana)) { 
+        $linha .= "<td>{$semana[$i]}</td>"; 
+      } else {    
+        $linha .= "<td></td>";  #Comando que faz os quadrados brancos
+    } 
+    } 
+    $linha .= '<tr>'; 
+        
+    return $linha;
+
+  } 
+  
+  
+  ?>
+  
+
+  <table border="4"> 
+    <tr> 
+      <th>Dom</th> 
+      <th>Seg</th> 
+      <th>Ter</th> 
+      <th>Qua</th> 
+      <th>Qui</th>
+      <th>Sex</th> 
+      <th>Sáb</th> 
+    </tr> 
+    <?php echo calendario(); ?> 
+  </table>
+
+
 </body>
 </html>
-

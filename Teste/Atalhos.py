@@ -45,11 +45,11 @@ browser-sync start --server --directory --files .
 Para abrir o browse-sync com php:
 
 trocar essa barra do Users
-cd C:/Users\Antonio\XAMPP\htdocs\teste
+cd C:/Users\Antonio\XAMPP\htdocs\works\teste\
 
 Após iniciar o servidor no apache, no terminal colocar:
 
-browser-sync start --proxy "http://localhost:8080/teste/index.php" --files .
+browser-sync start --proxy "http://localhost:8080/works/teste/"hoje.php" --files .
 
 Selecionar o http do "Local" indicado pelo browser-sync
 

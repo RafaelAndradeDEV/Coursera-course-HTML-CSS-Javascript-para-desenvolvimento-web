@@ -195,6 +195,159 @@ CSS(Cascading Style Sheets)
 -Design that Scales
 - - 1000 Pages on website
 
+                CSS Basics
+*Css              
+Last time: Why CSS?
+-Reusability :Vc conseguir fazer um código de estilo e usar em vários códigos
+- Maintainability(Capacidade de Manutenção):Easy to maintainability
+This time: How to write your own 
+
+For you link css you should use: <link> or <style>
+
+CSS Syntax
+Ex:
+h1 {
+  text-align: center;
+  color: blue;
+}
+h1 is "Selector: What element to format"
+{} is Curly braces around formatting for that element
+text-align: is Property to change, and later have ":" The colon and later Value, late semicolon
+color is property to change
+
+CSS: Select Some Elements
+li {
+  Color: green;
+}
+Makes all <li>s green
+What if we want some green?
+
+Three approaches:
+
+First:  CSS: Classes
+Classes: named styles, various elements
+- In HTML code:
+<li class="foodLi"> Chocolate </li>
+<li class="foodLi"> Cherries </li>
+<li class="foodLi"> Ice Cream </li>
+- In CSS:
+.foodLi {            #The point before "foodLi" is a Dot: Making a class, after him you have Class name: Anything you want, don´t able to put spaces and other things
+  color:green;
+}
+
+Second: CSS:IDs
+IDs: Name one element
+- In HTML Code:
+<img src = "cake.jpg" id="cakeImg" />
+- In CSS:
+#CakeImg {
+  float:right;
+ }
+
+ Third: CSS: Combinators
+Combinators: Select by relationship
+-Style <li> inside of <ul>:
+ul li {...}
+-More advanced relationships exist
+
+*Classes ans IDs: Name and Reuse
+Class and ID: name Style
+- Re-use as needed
+- Many elements in one page
+- Across pages. You can make one stylus for every pag that you´ve
+- Name + use: recurring concept in CS
+
+                  Colors and Names in CSS
+Colors
+-Names and Numbers
+
+140 Standard color names
+Exist millions of colors
+The RGB come from 0 to 255
+Can specify 16 millions colors
+
+We can specify with RGB, such gold:(255,215,0)
+or entire number: # + 6 hex digits
+-Hexadecimal: base 16
+-Digits: 0-9, A (10)-F(15)
+like: gold = #FFD700
+2 first hexadecimal numbers are R(red)
+2 Second hexadecimal numbers are G(green)
+2 third hexadecimal numbers are B(Blue)
+
+To convert in Numbers, take the Fórmula:
+Ex: #8A2BE2
+2° 8 * 16 + 10 * 1 = 138
+2°2 2* 16 + 11 * 1 = 43
+2°3 14 * 16 + 3 * 1 = 226
+RGB=(138,43,226)
+
+Have tools to take a color ex:
+ColorPicker
+
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Studying Lists</title>
+  <link rel="stylesheet" href="teste.css" type="text/css">
+</head>
+<body>
+  <div>
+    <h1>Quentin's Page of Interests</h1>
+    <p>The world wants to know: who is Quentin Ruiz-Esparza? Read this page to learn about Quentin's likes (and maybe his dislikes)!</p>
+  </div>
+  <div>
+    <h2>What's Your Top 5?</h2>
+    <p>Quentin was recently asked about his top 5 movies, musicians, and places he has visited. Here are his answers!</p>
+    <h3>Movies: Justice league</h3>
+    <h3>Music Artists: None</h3>
+    <h3>Places I've Visited: Ceará, Brazil</h3>
+  </div>
+  <div>
+    <table>
+      <tr>
+        <th>Foods</th>
+        <th>Books</th>
+        <th>Peoples to meet</th>
+      </tr>
+      <tr>  
+        <td>
+          <ol>
+            <li>french fries</li>
+            <li>Cake</li>
+            <li>Hamburger</li>
+          </ol>
+        </td>
+        <td>
+          <ol>
+            <li>How to sleep</li>
+            <li>How to programming in Python</l>
+            <li>Python for data science</li>
+          </ol>
+        </td>
+        <td>
+          <ul>
+            <li>Emily</li>
+            <li>Deyse</li>
+            <li>Lucas</li>
+          </ul> 
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
 
 
 
